@@ -1,6 +1,33 @@
-# blink(1) Integration
+# blink(1) Integration<a name="blink1-integration"></a>
 
-This integration sets up and uses a blink(1) USB status led for use within Home Assistant. The LED dongle can be directly connected to the Home Assistant Host or to another computer running the blink(1) Control Center application (with API access enabled).
+<!-- mdformat-toc start --slug=github --maxlevel=3 --minlevel=2 -->
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [References](#references)
+  - [Links to blink(1) resources](#links-to-blink1-resources)
+
+<!-- mdformat-toc end -->
+
+This integration sets up and uses a [blink(1)](https://blink1.thingm.com) USB status led for use within Home Assistant. The LED dongle can be directly connected to the Home Assistant Host's USB bus or to another computer running the blink(1) [blink1control](https://blink1.thingm.com/blink1control/), which can be [downloaded from GitHub](https://github.com/todbot/Blink1Control2) (via API access enabled).
+
+______________________________________________________________________
+
+## Installation<a name="installation"></a>
+
+tbd
+
+## Configuration<a name="configuration"></a>
+
+tbd
+
+## References<a name="references"></a>
+
+### Links to blink(1) resources<a name="links-to-blink1-resources"></a>
+
+- [URL API for blink(1) Applications](https://github.com/todbot/blink1/blob/main/docs/app-url-api.md)
+- [Examples of the blink(1) application URL API](https://github.com/todbot/blink1/blob/main/docs/app-url-api-examples.md)
+  - [blink(1) HID commands](https://github.com/todbot/blink1/blob/main/docs/blink1-hid-commands.md)
 
 <!--
 
