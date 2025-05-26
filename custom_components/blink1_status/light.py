@@ -52,10 +52,10 @@ async def async_setup_platform(
         None,
         None,
     )
-    async_add_entities([Blink1Status(light=b1)])
+    async_add_entities([Blink1LED(light=b1)])
 
 
-class Blink1Status(LightEntity):
+class Blink1LED(LightEntity):
     """Representation of a Blink(1) Light entity."""
 
     def __init__(self, light: "Blink1") -> None:
