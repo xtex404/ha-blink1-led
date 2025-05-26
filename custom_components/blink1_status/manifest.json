@@ -1,9 +1,14 @@
 {
-  "domain": "blink1_status",
   "name": "Blink(1) Status Light",
-  "documentation": "",
+  "codeowners": [
+    "@xtex404"
+  ],
   "dependencies": [],
-  "codeowners": [],
-  "requirements": ["blink1"],
-  "version": "0.1.0"
+  "documentation": "https://github.com/xtex404/ha-blink1-led",
+  "domain": "blink1_led",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "blink1==0.4.0"
+  ]
 }

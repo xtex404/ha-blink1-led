@@ -1,7 +1,8 @@
-# Blink(1) Integration
+# blink(1) Integration
 
-This integration sets up and uses a Blink(1) usb status led for use within Home Assistant.
+This integration sets up and uses a blink(1) USB status led for use within Home Assistant. The LED dongle can be directly connected to the Home Assistant Host or to another computer running the blink(1) Control Center application (with API access enabled).
 
+<!--
 
 ### Installation
 
@@ -18,3 +19,4 @@ light:
 ### Remarks
 - Use at your own risk. This is far from complete, but for me it works.
 - Feel free to do anything with the code, for my work there is no license attached.
+-->

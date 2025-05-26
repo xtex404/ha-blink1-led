@@ -1,5 +1,4 @@
 {
   "name": "Blink(1) Status Light",
-  "domains": ["light"],
-  "iot_class": ["Assumed State"]
+  "homeassistant": "2025.2.0"
 }
