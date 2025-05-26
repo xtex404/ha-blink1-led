@@ -9,7 +9,7 @@
 
 <!-- mdformat-toc end -->
 
-This integration sets up and uses a [blink(1)](https://blink1.thingm.com) USB status led for use within Home Assistant. The LED dongle can be directly connected to the Home Assistant Host's USB bus or to another computer running the blink(1) [blink1control](https://blink1.thingm.com/blink1control/), which can be [downloaded from GitHub](https://github.com/todbot/Blink1Control2) (via API access enabled).
+This integration sets up and uses a [blink(1)](https://blink1.thingm.com) USB status led for use within Home Assistant. The LED dongle can be connected to the Home Assistant server's USB bus or to another computer running the blink(1) [blink1control](https://blink1.thingm.com/blink1control/), which can be [downloaded from GitHub](https://github.com/todbot/Blink1Control2) (via API access enabled).
 
 ______________________________________________________________________
 
